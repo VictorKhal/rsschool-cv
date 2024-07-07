@@ -88,15 +88,15 @@
         </section>
         <section class="item_wrapper">
           <h2 class="item_title">Code example</h2>
-          <code>
-            <pre>
+          <pre>
+            <code>
               // Sort the odd
               function sortArray(array) {
                 let ar = [...array];  
                 let oddNumbers = ar.filter((element) => element % 2);
                 let sortedOddNumbers = oddNumbers.sort( (a, b) => a - b);
                 
-                for (let i = 0; i < ar.length; i++) {
+                for (let i = 0; i &lt ar.length; i++) {
                   if (ar[i] % 2) {
                     [first, ...sortedOddNumbers] = sortedOddNumbers;
                     ar[i] = first;
@@ -105,8 +105,8 @@
                 
                 return arr;
               }
-            </pre>
-          </code>
+            </code>
+          </pre>
         </section>
       </main>
       <footer class="footer">
