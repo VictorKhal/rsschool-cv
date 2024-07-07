@@ -96,7 +96,7 @@
                 let oddNumbers = ar.filter((element) => element % 2);
                 let sortedOddNumbers = oddNumbers.sort( (a, b) => a - b);
                 
-                for (let i = 0; i &lt ar.length; i++) {
+                for (let i = 0; i &lt; ar.length; i++) {
                   if (ar[i] % 2) {
                     [first, ...sortedOddNumbers] = sortedOddNumbers;
                     ar[i] = first;
